@@ -1,0 +1,13 @@
+name: svg3dx
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+    - drawsvg~=2.0
+    - sortedcontainers
+    - beartype
+    - typing-extensions
+    - pyrr
+    - -e .
